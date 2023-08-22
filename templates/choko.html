@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Шоколадка
+{% endblock title %}
+
+{% block content %}
+    <h1>{{ name }}</h1>
+    <img src="{% static img %}" width="300px">
+    <p>{{ text }}</p>
+{% endblock content %}
+
+{% block link %}
+    <a href='{{ link }}'>Сайт производителя</a>
+{% endblock link %}

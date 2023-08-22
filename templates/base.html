@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            Заголовок
+        {% endblock title %}
+    </title>
+</head>
+<body>
+
+    <div>
+        {% block menu %}
+            <a href="{% url 'choko' id='0' %}">Snickers</a>
+            <a href="{% url 'choko' id='1' %}">Mars</a>
+            <a href="{% url 'choko' id='2' %}">Nuts</a>
+            <a href="{% url 'choko' id='3' %}">Twix</a>
+            <a href="{% url 'choko' id='4' %}">Bounty</a>
+        {% endblock menu %}
+    </div>
+
+    <div>
+        {% block content %}
+            <h2>Контент</h2>
+        {% endblock content %}
+    </div>
+
+    <footer>
+        {% block link %}
+            Ссылка на сайт
+        {% endblock link %}
+    </footer>
+
+</body>
+</html>
