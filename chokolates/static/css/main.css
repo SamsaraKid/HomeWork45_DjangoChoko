@@ -1,0 +1,10 @@
+body{
+    padding-top: 50px;
+    background-color: azure;
+}
+
+.index-back{
+    width: 10px;
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+}
