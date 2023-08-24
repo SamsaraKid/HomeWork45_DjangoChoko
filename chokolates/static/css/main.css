@@ -4,7 +4,18 @@ body{
 }
 
 .index-back{
-    width: 10px;
-    /*width: 100vw;*/
-    /*height: 100vh;*/
+    width: 100vw;
+    height: 94.5vh;
+    overflow: hidden;
+    overscroll-behavior: none;
+}
+
+.index-back img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center 0;
+}
+
+.choko-img{
+    width: 40vw;
 }
