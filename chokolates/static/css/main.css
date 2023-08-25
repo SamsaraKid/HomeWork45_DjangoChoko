@@ -4,16 +4,9 @@ body{
 }
 
 .index-back{
-    width: 100vw;
-    height: 94.5vh;
-    overflow: hidden;
-    overscroll-behavior: none;
-}
-
-.index-back img{
-    width: 100%;
-    object-fit: cover;
-    object-position: center 0;
+    /*height: 94.5vh;*/
+    /*background-image: url('../img/index.webp');*/
+    /*background-size: cover;*/
 }
 
 .choko-img{

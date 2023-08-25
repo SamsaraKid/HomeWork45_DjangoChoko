@@ -6,11 +6,13 @@
 {% endblock title %}
 
 {% block content %}
-    <h1>{{ name }}</h1>
-    <img class='choko-img' src="{% static img %}" width="800px" alt="">
-    <p>{{ text }}</p>
+    <div class="card w-50 mx-auto text-bg-{{ color }} mt-5">
+      <div class="card-header"><h1>{{ name }}</h1></div>
+      <div class="card-body"><img class='choko-img w-50' src="{% static img %}" alt=""></div>
+      <div class="card-footer"><p>{{ text }}</p></div>
+    </div>
 {% endblock content %}
 
 {% block link %}
-    <a href='{{ link }}'>Сайт производителя</a>
+    <a href='{{ link }}'><button class="btn btn-{{ color }}">Сайт производителя</button></a>
 {% endblock link %}

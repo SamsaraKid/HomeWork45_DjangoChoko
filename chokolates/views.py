@@ -14,5 +14,5 @@ def chokolate(req, id):
     file = open(curdir + '/chokolates/static/text/content', 'r', encoding='utf-8')
     chokoinfo = list(map(lambda x: list(x.split(' # ')), file.readlines()))
     file.close()
-    name, img, text, link = chokoinfo[id]
-    return render(req, 'choko.html', context={'id': id, 'name': name, 'img': img, 'text': text, 'link': link})
+    name, img, text, link, color = chokoinfo[id]
+    return render(req, 'choko.html', context={'id': id, 'name': name, 'img': img, 'text': text, 'link': link, 'color': color})

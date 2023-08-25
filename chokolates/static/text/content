@@ -1,5 +1,5 @@
-Snickers # img/snickers.png # Не тормози - сникерсни # https://www.snickers.com/
-Mars # img/mars.png # Все будет в шоколаде # https://www.marsbar.co.uk/
-Nuts # img/nuts.png # Гора орехов # https://www.nestle.com/
-Twix # img/twix.png # Сладкая парочка # https://twix.com/
-Bounty # img/bounty.png # Райское наслаждение # https://www.mars.com/
+Snickers # img/snickers.png # Не тормози - сникерсни # https://www.snickers.com/ # primary
+Mars # img/mars.png # Все будет в шоколаде # https://www.marsbar.co.uk/ # dark
+Nuts # img/nuts.png # Гора орехов # https://www.nestle.com/ # warning
+Twix # img/twix.png # Сладкая парочка # https://twix.com/ # danger
+Bounty # img/bounty.png # Райское наслаждение # https://www.mars.com/ # info
